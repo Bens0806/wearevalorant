@@ -1,0 +1,91 @@
+@import url(https://lolstatic-a.akamaihd.net/webfonts/live/css/valorant/fonts.css);
+@import url(https://fonts.googleapis.com/css?family=Anton|Black+Han+Sans|Kanit:700|Noto+Sans+HK:900|Noto+Sans+JP:700|Noto+Sans+SC:700|Noto+Sans+TC:700|Oswald:700&display=swap&subset=chinese-hongkong,chinese-simplified,chinese-traditional,cyrillic,japanese,korean,thai,vietnamese);
+
+body {
+    font-family: "DIN Next LT W04 Medium", sans-serif;
+}
+
+.bg-111 {
+    background-color: #111;
+}
+
+.navbar-brand span {
+    font-family: "valorant-font";
+    color: white;
+    transition: 0.4s;
+}
+
+.navbar-brand span:hover {
+    color: rgb(238, 238, 238);
+    transition: 0.4s;
+
+}
+
+a:hover {
+    color: white;
+}
+
+.navbar {
+    padding: 0;
+}
+
+
+.nav-link, .nav-link {
+    transition: 0.4s;
+    padding: 20px 0px ;
+    border-bottom: 2px solid transparent;
+} 
+
+.nav-link:focus, .nav-link:hover {
+    transition: 0.4s;
+    border-bottom: 2px solid #ff4655;
+    color: white
+} 
+
+ 
+
+.nav-item a {
+    font-weight: 800;
+    font-size: 12px;
+    color: white;
+    text-transform: uppercase;
+}
+
+
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 2rem;
+        padding-left: 2rem;
+    }
+
+    
+
+}
+
+@media (max-width: 992px) {
+    .navbar {
+        padding: .5rem;
+    }
+    .nav-link:focus, .nav-link:hover {
+        border-color: transparent;
+        color: rgb(226, 226, 226);
+    } 
+}
+
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.btn-joinus {
+    font-size: 12px;
+    font-weight: 800;
+    border-radius: 2px;
+    padding: 12px 0;
+    border: 0;
+    color: white;
+    background-color: rgb(255, 70, 85);
+    width: 120px;
+
+}
