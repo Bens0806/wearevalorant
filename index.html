@@ -12,25 +12,24 @@
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/fonts.css">
 </head>
-
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-111">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-111 fixed-top">
     <div class="container">
-
       <a class="navbar-brand" href="#">
         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="54" height="39"
-        viewBox="0 0 54 39">
-        <image id="icons8-valorant" width="54" height="39"xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAADYAAAAnCAYAAABEz7vjAAAC3ElEQVRogd2ZXYhNURSAvxlMkeYqSYqhSFG3aBIpJU9KMcrjTMpPKZEHJQ+UGg9KUrz4Kz/d8iDkv4RS5AFveEHy4OfBhIx5Ymnd9kxnTuecu8/Z69y546vzcs89a+3vnH3P2mvfNhHB0Q6IO8Y97U5gCzAADAL7/wcxfWLTgc/ApMjnu4ETYziuYPSJzYlJKceB9ePMRWfdU+AKMB8RWSLJ/BaRbv0NjoOjN2bwvD3jDkwGbgNzm3jXi1AFTsWu684SU2YCd4FK63iMQsd1FZgSP9FITFnkLu4od4y5aQMuAAuSLvQRU9YAp12wVmEfsCFtLL5iymbgQItI6Y0+nPWFPGLKIaAvbEzBzAYuNxp7XjHlHLB6bJzqv3OtUzMafbGImBbza+6l0myOAct9chYRU6YBd1w5aBa9wE7fXEXFlHnAzaQaUgJJRbg0MWUZUAMmlCiVWoSzCBVTeoCjBnGSyCzCWViIKXuAXUaxomQW4SysxCih1WlYhLPQRrPTNZoWL4EhYBXwIjCOFuGXPvUqhXf6xH4aTiOLVse7CGewN9pE9qc0nEV4LSKVgg3qycDctfoGVSSgTstLhnIPRKQjp1S8E87LF93DiYvhBvLQUO68u2E+UlURGQzM1zMcLymBTqFXRmLKQU+xJ4F5atF4aUm6ROSTkZjS5yE2EBB/ZAoOH2l17COwDvgV8GaK4tPq3AiIvx34Fv0gusWdxFrgltFa8DuwEniTcr7Drd6rORYOQ24deT9+opGYsg0445moER+AFcBXo3ip+NyZsyFLmxhNa3V8nhhulX3RNXsWXAc2AX/KEvOdy2q/FXhklLfMVqeO7xMbpuI2/hcb5S/tX528YkoX8AyYZZD/L7Ax8FWfSBExZSnwGJhqMAarVmcURcUwrnFvgYWWfxOHdND3gB1G49A9jU6jWHVCtwasapxOwx8GcUYImYpRdHWiU3NigWvfA0dMVyPAP2ip9wHbCy3IAAAAAElFTkSuQmCC" />
-      </svg> 
-      
-      <span class="ms-2">WeAreValorant</span></a>
-     
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"><i class="bi bi-list"></i></span> 
-        </button>
+          viewBox="0 0 54 39">
+          <image id="icons8-valorant" width="54" height="39"
+            xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAADYAAAAnCAYAAABEz7vjAAAC3ElEQVRogd2ZXYhNURSAvxlMkeYqSYqhSFG3aBIpJU9KMcrjTMpPKZEHJQ+UGg9KUrz4Kz/d8iDkv4RS5AFveEHy4OfBhIx5Ymnd9kxnTuecu8/Z69y546vzcs89a+3vnH3P2mvfNhHB0Q6IO8Y97U5gCzAADAL7/wcxfWLTgc/ApMjnu4ETYziuYPSJzYlJKceB9ePMRWfdU+AKMB8RWSLJ/BaRbv0NjoOjN2bwvD3jDkwGbgNzm3jXi1AFTsWu684SU2YCd4FK63iMQsd1FZgSP9FITFnkLu4od4y5aQMuAAuSLvQRU9YAp12wVmEfsCFtLL5iymbgQItI6Y0+nPWFPGLKIaAvbEzBzAYuNxp7XjHlHLB6bJzqv3OtUzMafbGImBbza+6l0myOAct9chYRU6YBd1w5aBa9wE7fXEXFlHnAzaQaUgJJRbg0MWUZUAMmlCiVWoSzCBVTeoCjBnGSyCzCWViIKXuAXUaxomQW4SysxCih1WlYhLPQRrPTNZoWL4EhYBXwIjCOFuGXPvUqhXf6xH4aTiOLVse7CGewN9pE9qc0nEV4LSKVgg3qycDctfoGVSSgTstLhnIPRKQjp1S8E87LF93DiYvhBvLQUO68u2E+UlURGQzM1zMcLymBTqFXRmLKQU+xJ4F5atF4aUm6ROSTkZjS5yE2EBB/ZAoOH2l17COwDvgV8GaK4tPq3AiIvx34Fv0gusWdxFrgltFa8DuwEniTcr7Drd6rORYOQ24deT9+opGYsg0445moER+AFcBXo3ip+NyZsyFLmxhNa3V8nhhulX3RNXsWXAc2AX/KEvOdy2q/FXhklLfMVqeO7xMbpuI2/hcb5S/tX528YkoX8AyYZZD/L7Ax8FWfSBExZSnwGJhqMAarVmcURcUwrnFvgYWWfxOHdND3gB1G49A9jU6jWHVCtwasapxOwx8GcUYImYpRdHWiU3NigWvfA0dMVyPAP2ip9wHbCy3IAAAAAElFTkSuQmCC" />
+        </svg>
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"><i class="bi bi-list"></i></span>
+      </button>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-center">
+        <ul class="navbar-nav m-auto mb-2 mb-lg-0 text-center">
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#">Home</a>
           </li>
@@ -44,16 +43,47 @@
             <a class="nav-link active" aria-current="page" href="#">BLOG</a>
           </li>
         </ul>
-        <div class="d-flex"> 
-        <button class="btn-joinus m-auto" type="submit">Search</button>
-      </div>
+        <div class="d-flex">
+          <button class="btn-nav m-auto" type="submit">Rejoignez-nous</button>
+        </div>
       </div>
     </div>
   </nav>
 
+  <section id="banner">
+    <div class="bg-banner">
+      <div class="content-banner">
+        <div class="container">
+          <div class="row">
+            <div class="d-none d-lg-block col-lg-6">
+              <div class="phoenix">
+                <img src="http://image.noelshack.com/fichiers/2021/34/4/1630003409-v-agents-587x900-phx.png" alt="">
+              </div>
+            </div>
+            <div class="col-12 col-lg-6 mt-lg-20">
+              <div class="text-content">
+                <h1>We Are Valorant</h1>
+                <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni sed quidem, repudiandae unde
+                  consequuntur ab
+                  corrupti ipsa. Fugit, rem numquam odit ducimus est quisquam labore error esse, doloribus architecto
+                  perferendis necessitatibus, accusantium nam pariatur distinctio. Iure, reiciendis cum architecto error
+                  voluptates quibusdam ea, nulla praesentium porro laborum minima. Voluptatem, fugit.</p>
+                <button class="btn-joinus">Tournois</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-<!-- JS BOOSTRAP  -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+
+  <!-- JS BOOSTRAP  -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
 
 </body>
 
