@@ -139,7 +139,7 @@ cursor: url(../cur/pinckle.cur), auto  !important;
     display: flex;
     justify-content: center;
     align-items: center;
-
+    overflow: hidden;
 }
 
 .text-content {
@@ -147,6 +147,24 @@ cursor: url(../cur/pinckle.cur), auto  !important;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    z-index: 1;
+    position: relative;
+    
+}
+
+
+.bg-banner .text-content h1::before {
+    content: "Nous sommes valorant";
+    font-family: "valorant-font";
+    z-index: -1 !important;
+    font-size: 6em;
+    top:-100px;
+    right: 0;
+    bottom: 10px;
+    position: absolute;
+    line-height: 0.8em;
+    opacity: 0.09;
+
 }
 
 .content-banner .text-content h1 {
@@ -163,6 +181,13 @@ cursor: url(../cur/pinckle.cur), auto  !important;
     margin-top: 15%;
 }
 
+.z-1 {
+    z-index: 1;
+}
+
+.z--1 {
+    z-index: 0;
+}
 
 
  @media (min-width: 992px) {
