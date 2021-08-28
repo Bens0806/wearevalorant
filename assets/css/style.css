@@ -2,7 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Anton|Black+Han+Sans|Kanit:700|Noto+Sans+HK:900|Noto+Sans+JP:700|Noto+Sans+SC:700|Noto+Sans+TC:700|Oswald:700&display=swap&subset=chinese-hongkong,chinese-simplified,chinese-traditional,cyrillic,japanese,korean,thai,vietnamese);
 
 
-*{ 
+* { 
 cursor: url(../cur/white.cur), auto  !important;   
 } 
 
@@ -11,6 +11,8 @@ body {
     font-family: "DIN Next LT W04 Medium", sans-serif;
     background-color: #ece7e1;
 }
+
+
 
 .bg-111 {
     background-color: #111;
@@ -22,22 +24,33 @@ a:hover {
 
 button {
     border: 0;
-cursor: url(../cur/pinckle.cur), auto  !important;   
+    cursor: url(../cur/pinckle.cur), auto !important;   
 }
 
-
-
-
+/* font-valorant */
 .f-valo {
     font-family: "valorant-font";
 }
+/* style title */
+.title-valo {
+    font-family: "Tungsten";
+    font-size: 10em;
+    z-index: 2;
+}
+
+.container {
+    border-left: 1px solid #969493;
+}
+
 /* NAVBAR */
 
 .navbar {
     padding: 0;
 }
 
-
+nav .container {
+    border: 0;
+}
 
 .navbar-brand span:hover {
     color: rgb(238, 238, 238);
@@ -133,7 +146,7 @@ cursor: url(../cur/pinckle.cur), auto  !important;
 .bg-banner {
     margin: 0;
     padding: 0;
-    background: url(../img/valorant1.jpg) no-repeat center center;
+    background: url(../img/valorant1.png) no-repeat center center;
     min-height: 100vh;
     background-size: cover;
     display: flex;
@@ -179,6 +192,16 @@ cursor: url(../cur/pinckle.cur), auto  !important;
 
 .phoenix {
     margin-top: 15%;
+    transition: 0.5s ease-out;
+
+}
+.phoenix:hover {
+    transform: rotate(4deg);
+    transform: rotate(4deg);
+    -moz-transform: rotate(4deg);
+    -webkit-transform: rotate(4deg);
+    -ms-transform: rotate(4deg);
+    -o-transform: rotate(4deg);
 }
 
 .z-1 {
@@ -202,4 +225,114 @@ cursor: url(../cur/pinckle.cur), auto  !important;
      }
  }*
 /* Banner */
- 
+
+/* SEPARATOR */
+.separator {
+    background-color: rgb(255, 70, 85);
+    width: 20px;
+    height: 20px;
+}
+
+.box-s1 {
+    box-shadow: -90px 70px 1px #343d4696;
+}.box-s2 {
+    box-shadow: -16px -98px 1px #343d4696}
+
+/* TEAMS */
+.teams {
+    margin-top: 15%;
+}
+.card-teams {
+    position: relative;
+    transition: 0.5s;
+}
+
+
+
+.title-teams {
+    display: inline;
+    position: absolute; 
+    top: -120px;
+    left: 35px;
+    color: #FF4655;
+    text-shadow: -5px 3px 0px #FFFFFF;
+    width: 0;
+    transition: 0.9s;
+}
+.title-teams:hover {
+    transition: 0.2s;
+    text-shadow: -10px 5px 0px #FFFFFF;
+    top: -125px;
+    left: 30px;
+}
+
+
+@media (max-width: 400px) {
+    .title-teams {
+        top: -100px;
+        left: -10px;
+    }
+
+    .title-teams:hover {
+        top: -100px;
+        left: -10px;
+    }
+}
+
+@media (max-width: 300px) {
+    .title-valo {
+        font-size: 8em;
+    }
+}
+
+.cards {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 18em;
+    height: 451.09px;
+    margin-bottom: 30px;
+    transition: 0.5s;
+}
+.cards:hover {
+    width: 19em;
+    transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+.astra {
+    background: url(../img/teams/astra.png) center center;
+    background-size: cover;
+}
+
+.viper {
+    background: url(../img/teams/viper.png) center center;
+    background-size: cover;
+}
+
+.killjoy {
+    background: url(../img/teams/killjoy.png) center center;
+    background-size: cover;
+}
+.content-teams {
+    width:  150px;
+    padding: 10px;
+    text-align: center;
+    font-family: "valorant-font";
+    position: absolute;
+    bottom: 0;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.842);
+}
+.astra-text {
+    background: #571ACB;
+
+}
+.viper-text {
+    background: #1b8d41;
+}
+.killjoy-text {
+    background: #fadc33;
+}
+
+
+
