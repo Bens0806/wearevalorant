@@ -1,18 +1,14 @@
 @import url(https://lolstatic-a.akamaihd.net/webfonts/live/css/valorant/fonts.css);
 @import url(https://fonts.googleapis.com/css?family=Anton|Black+Han+Sans|Kanit:700|Noto+Sans+HK:900|Noto+Sans+JP:700|Noto+Sans+SC:700|Noto+Sans+TC:700|Oswald:700&display=swap&subset=chinese-hongkong,chinese-simplified,chinese-traditional,cyrillic,japanese,korean,thai,vietnamese);
 
-
 * { 
 cursor: url(../cur/white.cur), auto  !important;   
 } 
-
 
 body {
     font-family: "DIN Next LT W04 Medium", sans-serif;
     background-color: #ece7e1;
 }
-
-
 
 .bg-111 {
     background-color: #111;
@@ -32,9 +28,8 @@ button {
     font-family: "valorant-font";
 }
 /* style title */
-.title-valo {
+h1, h2, h3, h4, h5, h6 {
     font-family: "Tungsten";
-    font-size: 10em;
     z-index: 2;
 }
 
@@ -42,192 +37,9 @@ button {
     border-left: 1px solid #969493;
 }
 
-/* NAVBAR */
-
-.navbar {
-    padding: 0;
-}
-
-nav .container {
-    border: 0;
-}
-
-.navbar-brand span:hover {
-    color: rgb(238, 238, 238);
-    transition: 0.4s;
-
-}
-
-.nav-link, .nav-link {
-    transition: 0.4s;
-    padding: 20px 0px ;
-    border-bottom: 2px solid transparent;
-} 
-
-.nav-link:focus, .nav-link:hover {
-    transition: 0.4s;
-    border-bottom: 2px solid #ff4655;
-    color: white
-} 
-
-.nav-item a {
-    font-weight: 800;
-    font-size: 12px;
-    color: white;
-    text-transform: uppercase;
-}
-
-
-.btn-nav {
-    font-size: 12px;
-    font-weight: 800;
-    border-radius: 2px;
-    padding: 12px 0;
-    color: rgb(255, 70, 85);
-    background-color: rgb(255, 255, 255);
-    width: 120px;
-    background-image: linear-gradient(to left,transparent,transparent 50%,rgb(255, 70, 85) 50%,rgb(255, 70, 85));
-    background-position: 100% 0;
-    background-size: 200% 100%;
-    transition: all .25s ease-in;
-
-}
-
-.btn-nav:hover {
-    color: white;
-    background-position: 0;
-}
-
-@media (min-width: 992px) {
-    .navbar-expand-lg .navbar-nav .nav-link {
-        padding-right: 2rem;
-        padding-left: 2rem;
-    }
-}
-
-@media (max-width: 992px) {
-    .navbar {
-        padding: .5rem;
-    }
-    .nav-link:focus, .nav-link:hover {
-        border-color: transparent;
-        color: rgb(226, 226, 226);
-    } 
-}
-
-.navbar-toggler:focus {
-    box-shadow: none;
-}
-
-.btn-joinus {
-    font-size: 1em;
-    font-weight: 800;
-    border-radius: 2px;
-    padding: 12px 0;
-    border: 0;
-    color: white;
-    background-color: rgb(255, 70, 85);
-    width: 120px;
-    padding: 10px;
-    background-image: linear-gradient(to left,transparent,transparent 50%,#0f1923 50%,#0f1923);
-    background-position: 100% 0;
-    background-size: 200% 100%;
-    transition: all .25s ease-in;
-
-}
-
-.btn-joinus:hover {
-    background-position: 0 0;
-}
-
-
-/* NAVBAR */
-/* Banner */
-.bg-banner {
-    margin: 0;
-    padding: 0;
-    background: url(../img/valorant1.png) no-repeat center center;
-    min-height: 100vh;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-}
-
-.text-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    z-index: 1;
-    position: relative;
-    
-}
-
-
-.bg-banner .text-content h1::before {
-    content: "Nous sommes valorant";
-    font-family: "valorant-font";
-    z-index: -1 !important;
-    font-size: 6em;
-    top:-100px;
-    right: 0;
-    bottom: 10px;
-    position: absolute;
-    line-height: 0.8em;
-    opacity: 0.09;
-
-}
-
-.content-banner .text-content h1 {
-    color: white;
-    font-family: "valorant-font";
-    font-size: 3.5em;
-}
-
-.content-banner .text-content p {
-    color: #fff;
-}
-
-.phoenix {
-    margin-top: 15%;
-    transition: 0.5s ease-out;
-
-}
-.phoenix:hover {
-    transform: rotate(4deg);
-    transform: rotate(4deg);
-    -moz-transform: rotate(4deg);
-    -webkit-transform: rotate(4deg);
-    -ms-transform: rotate(4deg);
-    -o-transform: rotate(4deg);
-}
-
-.z-1 {
-    z-index: 1;
-}
-
-.z--1 {
-    z-index: 0;
-}
-
-
- @media (min-width: 992px) {
-    .mt-lg-20 {
-        margin-top: 20%;
-     }
- }
-
- @media (max-width: 320px) {
-     p {
-         font-size: 0.9em;
-     }
- }*
-/* Banner */
-
 /* SEPARATOR */
 .separator {
+    margin: 15px;
     background-color: rgb(255, 70, 85);
     width: 20px;
     height: 20px;
@@ -238,101 +50,6 @@ nav .container {
 }.box-s2 {
     box-shadow: -16px -98px 1px #343d4696}
 
-/* TEAMS */
-.teams {
-    margin-top: 15%;
-}
-.card-teams {
-    position: relative;
-    transition: 0.5s;
-}
-
-
-
-.title-teams {
-    display: inline;
-    position: absolute; 
-    top: -120px;
-    left: 35px;
-    color: #FF4655;
-    text-shadow: -5px 3px 0px #FFFFFF;
-    width: 0;
-    transition: 0.9s;
-}
-.title-teams:hover {
-    transition: 0.2s;
-    text-shadow: -10px 5px 0px #FFFFFF;
-    top: -125px;
-    left: 30px;
-}
-
-
-@media (max-width: 400px) {
-    .title-teams {
-        top: -100px;
-        left: -10px;
-    }
-
-    .title-teams:hover {
-        top: -100px;
-        left: -10px;
-    }
-}
-
-@media (max-width: 300px) {
-    .title-valo {
-        font-size: 8em;
-    }
-}
-
-.cards {
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    width: 18em;
-    height: 451.09px;
-    margin-bottom: 30px;
-    transition: 0.5s;
-}
-.cards:hover {
-    width: 19em;
-    transform: scale(1.1);
-    -moz-transform: scale(1.1);
-    -webkit-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    -o-transform: scale(1.1);
-}
-.astra {
-    background: url(../img/teams/astra.png) center center;
-    background-size: cover;
-}
-
-.viper {
-    background: url(../img/teams/viper.png) center center;
-    background-size: cover;
-}
-
-.killjoy {
-    background: url(../img/teams/killjoy.png) center center;
-    background-size: cover;
-}
-.content-teams {
-    width:  150px;
-    padding: 10px;
-    text-align: center;
-    font-family: "valorant-font";
-    position: absolute;
-    bottom: 0;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.842);
-}
-.astra-text {
-    background: #571ACB;
-
-}
-.viper-text {
-    background: #1b8d41;
-}
-.killjoy-text {
-    background: #fadc33;
-}
 
 
 

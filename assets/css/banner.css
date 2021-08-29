@@ -1,0 +1,115 @@
+
+@media (orientation:  landscape) {
+    .bg-banner{
+        font-size: 0.9em;
+        background: url(../img/bg-banner-mobile.jpeg) no-repeat center center !important;
+        background-size: cover !important;
+    }
+    .text-content {
+    padding-top: 50px;
+
+    }
+  }
+
+.bg-banner {
+    padding: 0;
+    background: url(../img/valorant1.png) no-repeat center center;
+    min-height:100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.text-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    z-index: 1;
+    position: relative;
+    
+}
+.text-content h1 {
+    font-size: 2.2em !important;
+}
+
+.text-content p {
+    font-size: 0.8em;
+}
+
+.btn-joinus {
+    font-size: 0.8em;
+    font-weight: 800;
+    border-radius: 2px;
+    padding: 12px 0;
+    border: 0;
+    width: 100px;
+    padding: 10px;
+    color: rgb(255, 70, 85);
+    background-color: rgb(255, 255, 255);
+    background-image: linear-gradient(to left,transparent,transparent 50%,rgb(255, 70, 85) 50%,rgb(255, 70, 85));
+    background-position: 100% 0;
+    background-size: 200% 100%;
+    transition: all .25s ease-in;
+
+}
+
+.btn-joinus:hover {
+    color: white;
+    background-position: 0 0;
+}
+
+.bg-banner .text-content h1::before {
+    content: "Nous sommes valorant";
+    font-family: "valorant-font";
+    z-index: -1 !important;
+    font-size: 6em;
+    top:-100px;
+    right: 0;
+    bottom: 10px;
+    position: absolute;
+    line-height: 0.8em;
+    opacity: 0.09;
+
+}
+
+.content-banner .text-content h1 {
+    color: white;
+    font-family: "valorant-font";
+    font-size: 3.5em;
+}
+
+.content-banner .text-content p {
+    color: #fff;
+}
+
+.phoenix {
+    margin-top: 15%;
+    transition: 0.9s ease-out;
+
+}
+.phoenix:hover {
+    transform: rotate(4deg);
+    transform: rotate(4deg);
+    -moz-transform: rotate(4deg);
+    -webkit-transform: rotate(4deg);
+    -ms-transform: rotate(4deg);
+    -o-transform: rotate(4deg);
+}
+
+.z-1 {
+    z-index: 1;
+}
+
+.z--1 {
+    z-index: 0;
+}
+
+
+ @media (min-width: 992px) {
+    .mt-lg-20 {
+        margin-top: 20%;
+     }
+ }

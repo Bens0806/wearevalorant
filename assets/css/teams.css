@@ -1,0 +1,75 @@
+/* TEAMS */
+.teams {
+    overflow: hidden;
+
+}
+.card-teams {
+    position: relative;
+    transition: 0.5s;
+}
+
+
+
+.title-teams {
+    
+    color: #FF4655;
+    text-shadow: -10px 3px 0px #FFFFFF;
+    transition: 1.9s;
+    text-align: center;
+    font-size: 7.5em;
+}
+.title-teams:hover {
+    position: relative;
+    text-shadow: 10px 5px 0px #FFFFFF;
+}
+
+
+.cards {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    max-width: 290px;
+    width: 17em;
+    height: 451.09px;
+    margin-bottom: 30px;
+    transition: 0.5s;
+}
+.cards:hover {
+    width: 17.5em;
+    transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+.astra {
+    background: url(../img/teams/astra.png) center center;
+    background-size: cover;
+}
+
+.viper {
+    background: url(../img/teams/viper.png) center center;
+    background-size: cover;
+}
+
+.killjoy {
+    background: url(../img/teams/killjoy.png) center center;
+    background-size: cover;
+}
+.content-teams {
+    width:  150px;
+    padding: 10px;
+    text-align: center;
+    font-family: "valorant-font";
+    position: absolute;
+    bottom: 0;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.842);
+}
+.astra-text {
+    background: #571ACB;
+
+}
+.viper-text {
+    background: #1b8d41;
+}
+.killjoy-text {
+    background: #fadc33;
+}
