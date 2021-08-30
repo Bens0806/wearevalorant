@@ -1,18 +1,15 @@
 /* TEAMS */
 .teams {
     overflow: hidden;
-
 }
 .card-teams {
     position: relative;
     transition: 0.5s;
 }
 
-
-
 .title-teams {
     
-    color: #FF4655;
+    color: #0f1923;
     text-shadow: -10px 3px 0px #FFFFFF;
     transition: 1.9s;
     text-align: center;

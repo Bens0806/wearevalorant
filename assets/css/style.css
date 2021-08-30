@@ -8,12 +8,21 @@ cursor: url(../cur/white.cur), auto  !important;
 body {
     font-family: "DIN Next LT W04 Medium", sans-serif;
     background-color: #ece7e1;
+    background-image: url(../img/body.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
+
+
 
 .bg-111 {
     background-color: #111;
 }
 
+h1 span {
+    font-family: "valorant-font";
+}
 a:hover {
     color: white;
 }
@@ -31,11 +40,13 @@ button {
 h1, h2, h3, h4, h5, h6 {
     font-family: "Tungsten";
     z-index: 2;
+    text-transform: uppercase;
 }
 
 .container {
-    border-left: 1px solid #969493;
+    border-left: 2px solid #969493;
 }
+
 
 /* SEPARATOR */
 .separator {
@@ -50,6 +61,27 @@ h1, h2, h3, h4, h5, h6 {
 }.box-s2 {
     box-shadow: -16px -98px 1px #343d4696}
 
+
+    .btn-style {
+        font-size: 12px;
+        font-weight: 800;
+        border-radius: 2px;
+        padding: 12px;
+        color: #0f1923;
+        text-transform: uppercase;
+        background-color: #ece7e1;
+        width: auto;
+        background-image: linear-gradient(to left,transparent,transparent 50%,rgb(255, 70, 85) 50%,rgb(255, 70, 85));
+        background-position: 100% 0;
+        background-size: 200% 100%;
+        transition: all .25s ease-in;
+    
+    }
+    
+    .btn-style:hover {
+        color: white;
+        background-position: 0;
+    }
 
 
 

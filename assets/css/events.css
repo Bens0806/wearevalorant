@@ -1,0 +1,107 @@
+.events {
+    background-color: rgb(255, 70, 85);
+    min-height: 400px;
+    width: 100%;
+
+}
+
+.body {
+    background-image: url(../img/test.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+@media (max-width: 576px) {
+    .events {
+        min-height: 70vh;
+    }
+}
+.content-events {
+    width: auto;
+    color: white;
+    font-size: 0.8em;
+    text-align: center;
+
+}
+.content-events h1 {
+    font-size: 4.6em;
+}
+
+.events button {
+    width: auto;
+}
+
+/* MODAL POPUP */
+.modal-content {
+    background-color: #0f1923;
+    color: white;
+    font-weight: 400;
+    border-radius: 0;
+    text-align: center;
+}
+
+.modal-header {
+    border-bottom: 3px solid rgb(255, 70, 86);
+}
+
+.modal-footer{
+    border-top: 3px solid rgb(255, 70, 86);
+}
+
+
+
+.events img {
+    width: 450px;
+    border-radius: 10px;
+    box-shadow: 1px 0 1px black;
+    box-shadow: 0px 0px 9px 0px #221e27;
+    transition: 0.8s;
+}
+.events img:hover {
+    box-shadow: 4px 5px 9px 0px #221e27;
+    transform: rotateZ(3deg);
+    transition: 0.8s;
+
+}
+.modal-body ul {
+    list-style-type: disc;
+    text-align: left;
+    font-size: 0.8em;
+}
+
+.modal-body  ul li {
+    font-weight: bold;
+}
+
+.modal-body p {
+    font-size: 0.8em;
+}
+
+.modal-footer button {
+    background-color: rgb(255, 70, 85);
+    border:0;
+    border-radius: 0;
+    color: #0f1923;
+    font-family: Tungsten;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+}
+
+.modal-footer button:hover {
+    background-color: rgb(255, 70, 85);
+    border:0;
+    border-radius: 0;
+    color: white;
+    font-family: Tungsten;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+}
+
+
+@media (min-width: 768px) {
+    .carousel-inner {
+        float: left;
+        text-align: left;
+    }
+}
