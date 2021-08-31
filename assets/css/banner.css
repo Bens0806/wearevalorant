@@ -76,7 +76,7 @@
 
 .content-banner .text-content h1 {
     color: white;
-    font-family: "valorant-font";
+    font-family: "Anton";
     font-size: 3.5em;
 }
 
@@ -96,6 +96,12 @@
     -webkit-transform: rotate(4deg);
     -ms-transform: rotate(4deg);
     -o-transform: rotate(4deg);
+}
+
+@media (max-width: 1400px) {
+    .phoenix img {
+        width: 500px;
+    }
 }
 
 .z-1 {

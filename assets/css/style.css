@@ -6,7 +6,7 @@ cursor: url(../cur/white.cur), auto  !important;
 } 
 
 body {
-    font-family: "DIN Next LT W04 Medium", sans-serif;
+    font-family: "DINNextW1G", sans-serif;
     background-color: #ece7e1;
     background-image: url(../img/body.png);
     background-repeat: no-repeat;
@@ -38,7 +38,7 @@ button {
 }
 /* style title */
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Tungsten";
+    font-family: "Tungsten-Bold";
     z-index: 2;
     text-transform: uppercase;
 }

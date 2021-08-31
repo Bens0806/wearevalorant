@@ -1,5 +1,5 @@
 /* Font Valorant - TITLE */
-
+@import url(https://lolstatic-a.akamaihd.net/webfonts/live/css/valorant/fonts.css);
 @font-face {
     font-family: "valorant-font";
     src: url(../fonts/Valorant\ Font.ttf);
@@ -7,7 +7,8 @@
 
 /* Font valorant - body */
 
-@font-face {font-family: "DIN";
+@font-face {
+  font-family: "DIN";
     src: url("0201813274259c3d4f78760d19270bab.eot"); /* IE9*/
     src: url("0201813274259c3d4f78760d19270bab.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
     url("0201813274259c3d4f78760d19270bab.woff2") format("woff2"), /* chrome、firefox */
@@ -15,10 +16,5 @@
     url("0201813274259c3d4f78760d19270bab.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
     url("0201813274259c3d4f78760d19270bab.svg#DIN Next LT W04 Medium") format("svg"); /* iOS 4.1- */
   }
-  @font-face {font-family: "Tungsten";
-    src: url("../fonts/tungten/561f38b1f4570de0fb8a39d691ab058c.eot"), /* IE9*/
-    url("../fonts/tungten/561f38b1f4570de0fb8a39d691ab058c.woff2") format("woff2"), /* chrome、firefox */
-    url("../fonts/tungten/561f38b1f4570de0fb8a39d691ab058c.woff") format("woff"), /* chrome、firefox */
-    url("../fonts/tungten/561f38b1f4570de0fb8a39d691ab058c.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
-  }
+
 

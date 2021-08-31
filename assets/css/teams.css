@@ -13,10 +13,9 @@
     text-shadow: -10px 3px 0px #FFFFFF;
     transition: 1.9s;
     text-align: center;
-    font-size: 7.5em;
+    font-size:  6.5em;
 }
 .title-teams:hover {
-    position: relative;
     text-shadow: 10px 5px 0px #FFFFFF;
 }
 

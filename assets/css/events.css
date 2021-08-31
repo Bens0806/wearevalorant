@@ -1,8 +1,17 @@
 .events {
     background-color: rgb(255, 70, 85);
-    min-height: 400px;
+    min-height: 40vh;
     width: 100%;
+    overflow: hidden;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-around;
+    align-items:center;
+}
 
+.h1-events {
+    font-size: 4.5em;
+    color: white;
 }
 
 .body {
@@ -14,7 +23,7 @@
 
 @media (max-width: 576px) {
     .events {
-        min-height: 70vh;
+        min-height: 100vh;
     }
 }
 .content-events {
