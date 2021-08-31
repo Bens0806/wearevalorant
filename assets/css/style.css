@@ -14,7 +14,21 @@ body {
     background-attachment: fixed;
 }
 
+@media (max-width: 768px) {
+    body {
+        background-image: none !important;
+    }
+    .body-bg {
+        background-image: none !important;
+    }
+}
 
+.body-bg {
+    background-image: url(../img/test.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
 
 .bg-111 {
     background-color: #111;
@@ -46,21 +60,6 @@ h1, h2, h3, h4, h5, h6 {
 .container {
     border-left: 2px solid #969493;
 }
-
-
-/* SEPARATOR */
-.separator {
-    margin: 15px;
-    background-color: rgb(255, 70, 85);
-    width: 20px;
-    height: 20px;
-}
-
-.box-s1 {
-    box-shadow: -90px 70px 1px #343d4696;
-}.box-s2 {
-    box-shadow: -16px -98px 1px #343d4696}
-
 
     .btn-style {
         font-size: 12px;

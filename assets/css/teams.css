@@ -1,6 +1,7 @@
 /* TEAMS */
 .teams {
     overflow: hidden;
+    min-height: 50vh;
 }
 .card-teams {
     position: relative;
