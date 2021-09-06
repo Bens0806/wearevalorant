@@ -28,13 +28,6 @@
 
 }
 
-@media screen and (orientation: landscape) {
-
-    .text-content h1 {
-    font-size: 2.5em !important;
-    }
-
-}
 .welcome {
     font-weight: 800;
     border-radius: 2px;
