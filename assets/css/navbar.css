@@ -2,7 +2,8 @@
 
 .navbar {
     padding: 0;
-
+    position: sticky;
+    font-size: 0.8em;
 }
 
 nav .container {
@@ -29,14 +30,12 @@ nav .container {
 
 .nav-item a {
     font-weight: 800;
-    font-size: 12px;
     color: white;
     text-transform: uppercase;
 }
 
 
 .btn-nav {
-    font-size: 12px;
     font-weight: 800;
     border-radius: 2px;
     padding: 12px;

@@ -1,30 +1,11 @@
 
-@media (orientation: landscape) {
-    .bg-banner{
-        font-size: 0.9em;
-        background: url(../img/bg-banner-mobile.jpeg) no-repeat center center !important;
-        background-size: cover !important;
-    }
-    .text-content {
-    padding-top: 50px;
-
-    }
-  }
-
-@media (min-width: 992px) {
-    .bg-banner {
-        font-size: 1.2em;
-    }
-}
 
 .bg-banner {
     padding: 0;
-    background: url(../img/valorant1.png) no-repeat center center !important;
-    min-height: 100vh;
+    background: url(../img/split.jpg) no-repeat center center ;
     background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-attachment: fixed;
+    height:100vh;
     overflow: hidden;
 }
 
@@ -35,18 +16,26 @@
     text-align: center;
     z-index: 1;
     position: relative;
-    
-}
-.text-content h1 {
-    font-size: 2.2em !important;
-}
-
-.text-content p {
     font-size: 0.8em;
 }
 
+@media screen and (min-width: 576px) {
+    .text-content h1 {
+        font-size: 8em;
+        z-index: 1;
+        position: relative;
+    }
+
+}
+
+@media screen and (orientation: landscape) {
+
+    .text-content h1 {
+    font-size: 2.5em !important;
+    }
+
+}
 .welcome {
-    font-size: 10px;
     font-weight: 800;
     border-radius: 2px;
     padding: 10px;
@@ -57,27 +46,22 @@
 
 }
 
+.phoenix {
+    position: relative;
+}
 
-
-
-.bg-banner .text-content h1::before {
-    content: "Nous sommes valorant";
-    font-family: "valorant-font";
-    z-index: -1 !important;
-    font-size: 6em;
-    top:-100px;
-    right: 0;
-    bottom: 10px;
+.phoenix::before {
+    content: '';
     position: absolute;
-    line-height: 0.8em;
-    opacity: 0.09;
-
+    width: 350px;
+    height: 350px;
+    background: var(--green);
+    border-radius: 50%;
 }
 
 .content-banner .text-content h1 {
     color: white;
     font-family: "Anton";
-    font-size: 3.5em;
 }
 
 .content-banner .text-content p {
@@ -85,7 +69,6 @@
 }
 
 .phoenix {
-    margin-top: 15%;
     transition: 0.9s ease-out;
 
 }
@@ -98,11 +81,9 @@
     -o-transform: rotate(4deg);
 }
 
-@media (max-width: 1400px) {
     .phoenix img {
-        width: 500px;
+        width: 300px;
     }
-}
 
 .z-1 {
     z-index: 1;
@@ -112,9 +93,3 @@
     z-index: 0;
 }
 
-
- @media (min-width: 992px) {
-    .mt-lg-20 {
-        margin-top: 20%;
-     }
- }

@@ -9,19 +9,20 @@
   <!-- css boostrap  -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/style.min.css">
- <!-- css - global -->
- <!--  <link rel="stylesheet" href="assets/css/style.css">-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  <!--<link rel="stylesheet" href="assets/css/style.min.css">-->
+  <!-- css - global -->
+  <link rel="stylesheet" href="assets/css/style.css">
   <!-- css - sections page -->
-  <!--<link rel="stylesheet" href="assets/css/navbar.css">-->
-  <!--<link rel="stylesheet" href="assets/css/teams.css">-->
-  <!--<link rel="stylesheet" href="assets/css/banner.css">-->
- <!-- <link rel="stylesheet" href="assets/css/events.css">-->
+  <link rel="stylesheet" href="assets/css/navbar.css">
+  <link rel="stylesheet" href="assets/css/teams.css">
+  <link rel="stylesheet" href="assets/css/banner.css">
+  <link rel="stylesheet" href="assets/css/events.css">
   <!-- css - fonts -->
-  <link rel="stylesheet" href="assets/css/fonts.css"> 
+  <link rel="stylesheet" href="assets/css/fonts.css">
 </head>
 
-<body >
+<body>
   <!-- ################################################################## -->
   <!-- start: NAVBAR -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-111 fixed-top">
@@ -36,7 +37,7 @@
 
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"><i class="bi bi-list"></i></span>
+        <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav m-auto mb-2 mb-lg-0 text-center">
@@ -64,22 +65,31 @@
   <!-- start: Banner -->
   <section id="banner">
     <div class="bg-banner">
-      <div class="content-banner">
-        <div class="container">
-          <div class="row">
-            <div class="d-none d-lg-block col-lg-6">
-              <div class="phoenix">
-                <img src="http://image.noelshack.com/fichiers/2021/34/4/1630003409-v-agents-587x900-phx.png" alt="">
+      <div class="bg-opacity">
+        <div class="content-banner d-flex flex-column justify-content-center h-100 ">
+          <div class="container">
+            <div class="row">
+              <div class="d-none d-lg-block col-lg-6">
+                <div class="phoenix d-lg-flex justify-content-lg-center">
+                  <img src="assets/img/phoenix.png" alt="">
+                </div>
               </div>
-            </div>
-            <div class="col-12 col-lg-6 mt-lg-20">
-              <div class="text-content">
-                <h1>We Are Valorant</h1>
-                <p>Tu es un joueur passionné? Tu souhaites montrer tes performances en tant que qu'agent au sein des Leagues faisant partie de Valorant? 
-                  Tu es au bonne endroit. Nous sommes en filière avec toutes les TEAMS. Passe ta candidature et elle sera transmise! Attention, je tiens à te
-                  dire que les équipes recrute des personnes motivées avec un vraie potentielle. Nous sommes en affiliation avec seulement les plus grands groupes!Bienvenue sur Valorant!
-                </p>
-              <p class="welcome">Bienvenue sur Valorant</p> <!--  -->
+              <div class="col-12 col-lg-6 d-lg-flex flex-lg-column align-items-lg-center justify-content-lg-center">
+                <div class="text-content">
+                  <h1>We Are Valorant</h1>
+                  <p>Tu es un joueur passionné? Tu souhaites montrer tes performances en tant que qu'agent au sein des
+                    Leagues faisant partie de Valorant?
+                    Tu es au bonne endroit. Nous sommes en filière avec toutes les TEAMS. Passe ta candidature et elle
+                    sera transmise! Attention, je tiens à te
+                    dire que les équipes recrute des personnes motivées avec un vraie potentielle. Nous sommes en
+                    affiliation avec seulement les plus grands groupes e-sport.
+                    <br>
+                    N'oublie pas! <strong>YOU ARE VALORANT</strong>.
+                  </p>
+                  <a href="google.fr">
+                    <button class="welcome">S'inscrire</button>
+                  </a><!--  -->
+                </div>
               </div>
             </div>
           </div>
@@ -92,89 +102,146 @@
   <!-- ################################################################## -->
   <!-- start: TEAMS -->
   <section id="teams">
-    <div class="container">
-      <div class="teams position-relative">
-    <h1 class="title-teams">TEAMS</h1>
-        <div class="row">
-          <div class="col-12 d-flex flex-column align-items-center flex-md-row flex-md-wrap justify-content-evenly">
-            <div class="cards card-teams astra">
-              <div class="card-body">
-                <p class="astra-text text-light content-teams">Marie Fox</p>
-              </div>
-            </div>
-            <div class="cards card-teams viper">
-              <div class="card-body">
-                <p class="viper-text text-light content-teams">James Dons</p>
-              </div>
-            </div>
-            <div class="cards card-teams killjoy">
-              <div class="card-body">
-                <p class="killjoy-text text-dark content-teams">Steve Zarks</p>
-              </div>
-            </div>
+    <div class="teams">
+      <div class="bg-opacity d-xl-flex">
+        <div class="container d-flex flex-column align-items-center justify-content-center">
+          <div class="mt-5 mb-5 w-75">
+            <h1 class="title-teams">- TEAMS -</h1>
+            <p class="text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure quam laudantium
+              repudiandae corporis eveniet aperiam maiores repellendus accusantium mollitia non.</p>
           </div>
-        </div>
-  </section>
-  <!-- end: TEAMS -->
-  <!-- ################################################################## -->
-  <!-- start: EVENEMENTS -->
-  <section id="events">
-    <svg class="body" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-      <path fill="#ff4655" fill-opacity="1" d="M0,64L1440,288L1440,320L0,320Z"></path>
-    </svg>
-
-    <div class="body-bg events">
-      <div class="container">
-        <h1 class="h1-events">évenements</h1>
-        <div class="content-events float-left">
-          <div class="row">
-            <div class="col-12 col-lg-6">
-              <div id="carouselExampleControls" class="carousel slide float-start" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <h1>TOURNOIS <span>01/08</span></h1>
-                    <p>Deux équipes déterminées avec des entrainements et beaucoup de motivation pour chacun d'entre eux
-                      depuis des mois, attendant ce jour arrivé! Assistez ...</p>
-                    <button type="button" class="btn-style" data-bs-toggle="modal" data-bs-target="#un-huit">En savoir
-                      plus</button>
-                    <!--  -->
-
-                  </div>
-                  <div class="carousel-item">
-                    <h1>TOURNOIS <span>01/09</span></h1>
-                    <p>La victoire n'est pas une finalité pour ces deux équipes. Ils sont entrainés chaque jour pour se
-                      préparer...</p>
-                    <button type="button" class="btn-style" data-bs-toggle="modal" data-bs-target="#un-neuf">En savoir
-                      plus</button>
-                  </div>
-                  <div class="carousel-item">
-                    <h1>TOURNOIS <span>01/10</span></h1>
-                    <p>Un esprit de compétition et de détermination! Ils sont prêts à tout pour gagner, les deux équipes
-                      savent à
-                      quoi s'attendre. Chers spectateurs, ne soyez pas ...</p>
-                    <button type="button" class="btn-style" data-bs-toggle="modal" data-bs-target="#un-dix">En savoir
-                      plus</button>
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-                  data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon d-none" aria-hidden="true"></span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-                  data-bs-slide="next">
-                  <span class="carousel-control-next-icon d-none" aria-hidden="true"></span>
-                </button>
+          <div class="row mb-5">
+            <div class="col-12 d-flex flex-column align-items-center justify-content-center flex-md-row flex-wrap">
+              <div class="cards">
+                <img src="assets/img/avatar/avatar-killjoy.png" alt="">
+                <h4>Mickael Zons</h4>
+                <span id="president">Président</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, tempora reiciendis officia aliquam
+                  optio ea. Vel saepe delectus laboriosam culpa et recusandae iure deleniti consequatur.</p>
               </div>
-            </div>
-            <div class="col-6 d-flex justify-content-end">
-              <img class="d-none d-lg-block" width="100%" src="assets/img/img-tournois.png">
+              <div class="cards">
+                <img src="assets/img/avatar/avatar-reyna.png" alt="">
+                <h4>Stephanie Lamar</h4>
+                <span id="co-p">Co-Président</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, tempora reiciendis officia aliquam
+                  optio ea. Vel saepe delectus laboriosam culpa et recusandae iure deleniti consequatur.</p>
+              </div>
+
+              <div class="cards">
+                <img src="assets/img/avatar/avatar-raze.png" alt="">
+                <h4>David Guys</h4>
+                <span id="rsp-r">Responsable Recrutements</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, tempora reiciendis officia aliquam
+                  optio ea. Vel saepe delectus laboriosam culpa et recusandae iure deleniti consequatur.</p>
+              </div>
+
+              <div class="cards">
+                <img src="assets/img/avatar/avatar-jett.png" alt="">
+                <h4>Quentin Zouisse</h4>
+                <span id="rsp-e">Chef de Projet</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, tempora reiciendis officia aliquam
+                  optio ea. Vel saepe delectus laboriosam culpa et recusandae iure deleniti consequatur.</p>
+              </div>
+
+              <div class="cards">
+                <img src="assets/img/avatar/avatar-brimstone.png" alt="">
+                <h4>John Malus</h4>
+                <span id="rsp-e">Chef de Projet</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, tempora reiciendis officia aliquam
+                  optio ea. Vel saepe delectus laboriosam culpa et recusandae iure deleniti consequatur.</p>
+              </div>
+
+              <div class="cards">
+                <img src="assets/img/avatar/avatar-viper.png" alt="">
+                <h4>Zoe Sirine</h4>
+                <span id="rsp-e">Chef de Projet</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, tempora reiciendis officia aliquam
+                  optio ea. Vel saepe delectus laboriosam culpa et recusandae iure deleniti consequatur.</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
+  </section>
+  <!-- end: TEAMS -->
+  <!-- ################################################################## -->
+  
+  <!-- ################################################################## -->
+  <!-- start: TEAMS -->
+  <section id="about-us">
+    <div class="bg-aboutus">
+        <div class="bg-opacity">
+          <div class="container">
+            
+          </div>
+        </div>
     </div>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ff4655" fill-opacity="1" d="M0,96L1440,288L1440,0L0,0Z"></path></svg>
+  </section>
+  <!-- end: TEAMS -->
+  <!-- ################################################################## -->
+  <!-- start: EVENEMENTS -->
+  <section id="events">
+    <div class="bg-events">
+      <div class="bg-opacity d-flex flex-column justify-content-center">
+        <div class="body-bg events">
+          <div class="container">
+            <h1 class="h1-events">évenements -</h1>
+            <div class="content-events float-left">
+              <div class="row">
+                <div class="col-12 col-lg-6">
+                  <div id="carouselExampleControls" class="carousel slide float-start" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <h1>TOURNOIS <span>01/08</span></h1>
+                        <p>Deux équipes déterminées avec des entrainements et beaucoup de motivation pour chacun d'entre
+                          eux
+                          depuis des mois, attendant ce jour arrivé! Assistez ...</p>
+                        <button type="button" class="btn-style" data-bs-toggle="modal" data-bs-target="#un-huit">En
+                          savoir
+                          plus</button>
+                        <!--  -->
+
+                      </div>
+                      <div class="carousel-item">
+                        <h1>TOURNOIS <span>01/09</span></h1>
+                        <p>La victoire n'est pas une finalité pour ces deux équipes. Ils sont entrainés chaque jour pour
+                          se
+                          préparer...</p>
+                        <button type="button" class="btn-style" data-bs-toggle="modal" data-bs-target="#un-neuf">En
+                          savoir
+                          plus</button>
+                      </div>
+                      <div class="carousel-item">
+                        <h1>TOURNOIS <span>01/10</span></h1>
+                        <p>Un esprit de compétition et de détermination! Ils sont prêts à tout pour gagner, les deux
+                          équipes
+                          savent à
+                          quoi s'attendre. Chers spectateurs, ne soyez pas ...</p>
+                        <button type="button" class="btn-style" data-bs-toggle="modal" data-bs-target="#un-dix">En
+                          savoir
+                          plus</button>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                      data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon d-none" aria-hidden="true"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                      data-bs-slide="next">
+                      <span class="carousel-control-next-icon d-none" aria-hidden="true"></span>
+                    </button>
+                  </div>
+                </div>
+                <div class="col-6 d-flex justify-content-end">
+                  <img class="d-none d-lg-block" width="100%" src="assets/img/img-tournois.png">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 
 
@@ -279,12 +346,7 @@
 
   <!-- end: EVENEMENTS -->
   <!-- ################################################################## -->
-  <!-- start: FOOTER -->
-  <!-- end: FOOTER -->
-  <!-- ################################################################## -->
-  <!-- start: FOOTER -->
-  <!-- end: FOOTER -->
-  <!-- ################################################################## -->
+  
   <!-- JS BOOSTRAP  -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">var myModal = document.getElementById('myModal')

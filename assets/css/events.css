@@ -1,7 +1,13 @@
+.bg-events {
+    padding: 0;
+    background: url(../img/ascent.jpg) no-repeat center center ;
+    background-size: cover;
+    background-attachment: fixed;
+    height:500px;
+    overflow: hidden;
+}
+
 .events {
-    background-color: rgb(255, 70, 85);
-    min-height: 40vh;
-    width: 100%;
     overflow: hidden;
     display: flex; 
     flex-direction: column; 
