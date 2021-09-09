@@ -17,6 +17,18 @@
     url("0201813274259c3d4f78760d19270bab.svg#DIN Next LT W04 Medium") format("svg"); /* iOS 4.1- */
   }
 
+
+
+@font-face {
+    font-family: 'FF Mark';
+    src: local('FF Mark Medium'), local('FF-Mark-Medium'),
+        url('../fonts/Mark-Medium.woff2') format('woff2'),
+        url('../fonts/Mark-Medium.woff') format('woff'),
+        url('../fonts/Mark-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+  }
+
   /* @font-face {
     font-family: "Tungsten-Bold";
     src: url("../../fonts/tungsten/Tungsten-Bold_Web.woff2") format("woff2"), url("../../fonts/tungsten") format("woff"); }

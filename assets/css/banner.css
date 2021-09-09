@@ -18,10 +18,12 @@
     position: relative;
     font-size: 1em;
     margin-bottom: 20px;
+    z-index: 10;
 }
 
 .text-content h1 {
     font-size: 1.9em;
+    position: relative;
 }
 
 .text-content p {
@@ -37,7 +39,7 @@
 }
 @media screen and (min-width: 1200px){
 .text-content p {
-    font-size: 1.2em;
+    font-size: 1.1em;
 }
 }
 
@@ -54,14 +56,21 @@
 
 .phoenix {
     position: relative;
+    transition:0.9s cubic-bezier(0, 3.6, 1, -0.6);
 }
-
-.phoenix::before {
+.phoenix:hover {
+    transform:scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -ms-transform:scale(1.2);
+    -o-transform:scale(1.2);
+}
+.phoenix img::before {
     content: '';
     position: absolute;
-    width: 350px;
-    height: 350px;
-    background: var(--green);
+    top: 0;
+    width: 100%;
+    background-color: var(--green);
     border-radius: 50%;
 }
 
@@ -74,18 +83,7 @@
     color: #fff;
 }
 
-.phoenix {
-    transition: 0.9s ease-out;
 
-}
-.phoenix:hover {
-    transform: rotate(4deg);
-    transform: rotate(4deg);
-    -moz-transform: rotate(4deg);
-    -webkit-transform: rotate(4deg);
-    -ms-transform: rotate(4deg);
-    -o-transform: rotate(4deg);
-}
 
     .phoenix img {
         width: 300px;
