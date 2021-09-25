@@ -50,6 +50,31 @@
 }
 
 /* ########################################################## */
+/* ######################## ABOUTUS ############################ */
+/* ########################################################## */
+
+.bg-aboutus {
+    background: url(../img/fracture1.webp) no-repeat center center ;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    height: auto;
+}
+
+.bg-aboutus .bg-opacity {
+    padding: 20px 0;
+}
+
+.bg-aboutus p {
+    font-size: 0.9em;
+}
+
+.bg-aboutus .avatar-agent img {
+    width: 100px;
+}
+
+
+/* ########################################################## */
 /* ######################## TEAMS ############################ */
 /* ########################################################## */
 
