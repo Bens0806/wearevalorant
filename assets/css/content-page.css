@@ -1,0 +1,255 @@
+
+/* ########################################################## */
+/* ######################## BANNER ############################ */
+/* ########################################################## */
+
+.bg-banner {
+    padding: 0;
+    background: url(../img/split.jpg) no-repeat center center ;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+.text-content {
+    text-align: center;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.text-content h1 {
+    font-size: 2em;
+    position: relative;
+}
+
+.text-content p {
+    font-size: 0.8em;
+}
+
+.phoenix img {
+    width: 400px;
+}
+
+.content-banner .text-content {
+    color: #fff;
+}
+@media screen and (min-width: 576px) {
+    .text-content h1 {
+        font-size: 3.5em;
+        z-index: 1;
+        position: relative;
+    }
+    .text-content p {
+        font-size: 0.9em;
+    }
+}
+@media screen and (min-width: 1200px){
+    .text-content p {
+        font-size: 1.1em;
+    }
+}
+
+/* ########################################################## */
+/* ######################## TEAMS ############################ */
+/* ########################################################## */
+
+.teams {
+    background: url(../img/fracture.webp) no-repeat center center ;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    height: 100%;
+}
+
+.teams .bg-opacity {
+    background: rgba(2, 2, 2, 0.473);
+    height: 100%;
+}
+
+.h-50vh {
+    height: 100%;
+}
+.title-teams {
+    color: #fff;
+    transition: 1.9s;
+    text-align: center;
+    font-size: 3em;
+}
+
+.teams .cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.teams .cards span {
+    margin-top: 3.5px;
+    width: auto;
+    padding: 0 10px;
+}
+ .cards #president {
+    background: #b33939;
+}
+.cards #co-p {
+    background: #ff5252;
+}
+.cards #rsp-r {
+    background: #227093;
+}
+.cards #rsp-e {
+    background: #33d9b2;
+}
+.teams .cards img {
+    width: 100px;
+}
+
+.teams .cards h4 {
+    font-size: 1em;
+    font-weight: 800;
+    font-family: RobotoCondensed, sans-serif;
+    letter-spacing: 0.05em;
+}
+.teams .cards p {
+    font-size: 0.8em;
+    margin-top: 5px;
+}
+
+
+@media screen and (max-width: 992px) {
+    .teams .cards {
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .teams .cards {
+        width: 450px;
+    }
+}
+
+/* ########################################################## */
+/* ######################## EVENTS ############################ */
+/* ########################################################## */
+
+.bg-events {
+    padding: 0;
+    background: url(../img/ascent.jpg) no-repeat center center ;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height:100vh;
+}
+
+.title-event {
+    font-size: 3em;
+    text-transform: uppercase;
+    color: white;
+}
+
+
+.bg-events .cards {
+    background: rgba(26, 26, 26, 0.267);
+    width: 285px;
+    height: 785px;
+    padding: 10px;    
+    margin: 10px 10px;
+    box-shadow:0px 0 4px 1px #1f1f1f;
+}
+
+.bg-events .cards span.date {
+    background: rgb(255, 70, 85);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    height: 150px;
+    transition: 0.3s;
+}
+.bg-events .cards h3 {
+    letter-spacing: 0.07em;
+}
+.bg-events .cards span.date:hover {
+    background: white;
+    transition: 0.3s;
+    color: rgb(255, 70, 85);
+}
+.cards .logo-teams img {
+    width: 50px;
+}
+.cards .footer-cards h2 {
+    font-size: 2em;
+    text-decoration: underline;
+}
+.cards .footer-cards ul li {
+    text-align: left;
+}
+
+/* ########################################################## */
+/* ######################## FOOTER ############################ */
+/* ########################################################## */
+
+.footer {
+    background: #111;
+    padding: 40px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(65, 65, 65);
+}
+
+.footer h2 {
+    letter-spacing: 0.05em;
+}
+
+.footer .navfooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer .navfooter p {
+    width: 70%;
+}
+.footer a {
+    color: rgb(65, 65, 65);
+    text-decoration: underline;
+}
+.footer .navfooter span {
+    text-decoration: underline;
+}
+.footer .navfooter ul  {
+    margin: 15px 0;
+    padding: 0;
+    text-align: center;
+}
+
+.footer .navfooter .nav-speed li a {
+    font-weight: 800;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.2s;
+
+}
+
+.footer .navfooter .nav-speed li a:hover {
+    background: rgb(255, 70, 85);
+    padding: 5px;
+    color: white;
+    transition: 0.2s;
+}
+.footer .navfooter ul li {
+    margin: 0;
+    list-style-type: none;
+}
+
+.footer .navfooter ul.social li {
+    display: inline;
+    margin: 10px;
+}
+
+.footer .navfooter ul.social li i {
+    background: rgb(65, 65, 65);
+    border-radius: 50px;
+    color: #111;
+    padding: 5px;
+}
